@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Zoom Runners Leaks</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Arial', sans-serif;
+      background-color: #f0f0f0;
+      overflow: hidden; 
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background: linear-gradient(to right, #ff5733, #ff8c00, #ffcc00); 
+      overflow: hidden; /
+    }
+
+    .content {
+      background-color: rgba(255, 255, 255, 0.8); 
+      padding: 3em 5em;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      text-align: center;
+      position: relative;
+      z-index: 1;
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 1em;
+      color: #ffcc00; 
+      text-shadow: 0 0 10px #ff8c00; 
+      animation: glow 1.5s infinite alternate;
+    }
+
+    p {
+      font-size: 1.2em;
+      margin-bottom: 2em;
+      color: #ffcc00; 
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: center;
+      gap: 1em;
+    }
+
+    .btn {
+      background-color: #ffcc00; 
+      color: #fff;
+      padding: 1em 2em;
+      border: none;
+      border-radius: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      transition: all 0.3s ease;
+      text-decoration: none;
+      cursor: pointer;
+      display: flex; 
+      justify-content: center; 
+      align-items: center;
+    }
+
+    .btn:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+      background-color: #ff8c00; 
+    }
+
+    .btn:active {
+      transform: translateY(0);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      background-color: #ff5733;
+    }
+
+
+    @keyframes glow {
+      0% {
+        text-shadow: 0 0 10px #ff8c00;
+      }
+      100% {
+        text-shadow: 0 0 20px #ffcc00;
+      }
+    }
+
+    #leaks {
+      position: absolute;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 80%;
+      text-align: center;
+    }
+
+    #leaks img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 10px;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f0f0f0;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 1em;
+      color: #ffcc00;
+      text-shadow: 0 0 5px #ff8c00;
+      animation: glow 1s infinite alternate;
+    }
+
+    p {
+      font-size: 1.2em;
+      margin-bottom: 2em;
+      color: #ffcc00;
+    }
+
+    img {
+      max-width: 80%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      margin-bottom: 20px;
+      animation: fade-in 1s ease-in-out forwards;
+    }
+
+    @keyframes fade-in {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+    body {
+      background: linear-gradient(to right, #ff5733, #ff8c00, #ffcc00);
+    }
+  </style>
+</head>
+<body>
+  <h1>Zora Runners Leaks</h1>
+  <p>Check out these sneak peeks!</p>
+
+  <img src="image1.jpg" alt="Zoom Runners Leak Image 1">
+  <img src="image2.png" alt="Zoom Runners Leak Image 2">
+</body>
+</html>
